@@ -1,0 +1,3 @@
+== GeoFilter
+
+GeoFilter filters database models by geographic area. To install, run `gem install geofilter`. But don't do that until the software is released.
