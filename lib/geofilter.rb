@@ -9,8 +9,8 @@ class GeoFilter
     self.grouping = grouping
   end
 
-  def filter!
-    return model.find(grouping)
+  def filter
+    model.find(grouping)
   end
 
   private
