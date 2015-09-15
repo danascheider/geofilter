@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 
   s.name                      = 'geofilter'
   s.version                   = GeoFilterPackage.gem_version
-  s.date                      = '2015-09-11'
+  s.date                      = '2015-09-14'
   s.summary                   = 'GeoFilter gem filters database models by geographic area'
   s.authors                   = ['Dana Scheider']
 

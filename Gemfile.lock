@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    geofilter (0.0.2)
+    geofilter (0.0.3)
       sequel (~> 4.21)
 
 GEM
