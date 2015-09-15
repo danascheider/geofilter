@@ -4,9 +4,9 @@ module GeoFilterPackage
   end
 
   module Version
-    MAJOR = '0'
+    MAJOR = '1'
     MINOR = '0'
-    PATCH = '3'
+    PATCH = '0-alpha'
 
     STRING = [MAJOR, MINOR, PATCH].join('.').chomp('.')
   end

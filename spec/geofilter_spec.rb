@@ -15,7 +15,7 @@ describe GeoFilter do
 
   describe '#filter!' do
     it 'queries the model with its grouping' do 
-      expect(FakeModel).to receive(:find).with({state: 'WA'})
+      expect(FakeModel).to receive(:where).with({state: 'WA'})
       filter.filter!
     end
   end
